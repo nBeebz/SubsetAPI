@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using SubsetAPI.Models;
+using System.Web.Http.Cors;
 
 namespace SubsetAPI.Controllers
 {
