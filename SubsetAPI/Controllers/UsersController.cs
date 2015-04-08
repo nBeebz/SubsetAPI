@@ -12,6 +12,7 @@ using SubsetAPI.Models;
 
 namespace SubsetAPI.Controllers
 {
+     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UsersController : ApiController
     {
         private Entities db = new Entities();
